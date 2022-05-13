@@ -1,0 +1,10 @@
+.wp-block.wp-block-columns.is-not-stacked-on-mobile {
+	gap: 1.5rem;
+}
+
+@media screen and (min-width: 782px) {
+	.wp-block.wp-block-columns,
+	.wp-block.wp-block-columns.is-not-stacked-on-mobile {
+		gap: 1.75em;
+	}
+}
